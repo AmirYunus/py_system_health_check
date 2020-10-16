@@ -15,7 +15,7 @@ if not check_disk_usage("/"):
     print(f"Warning: High disk usage")
 
 if not check_cpu_usage():
-    print("ERROR!")
+    print("ERROR! CPU is overloaded")
 
 else:
     print("Everything is OK!")
